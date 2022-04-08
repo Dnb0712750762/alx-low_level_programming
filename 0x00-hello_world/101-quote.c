@@ -1,8 +1,7 @@
 #include <unistd.h>
 
 /**
-*
-*main - function begins
+* main - function begins
 *
 *Return: function ends
 */
