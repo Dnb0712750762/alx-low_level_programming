@@ -2,7 +2,7 @@
 /**
 * main - Entry point
 *
-* Return: Always 0 (Success/correct)
+*Return: Always 0 (Success/correct)
 */
 
 int main(void)
@@ -18,6 +18,5 @@ putchar(alphabet);
 putchar('\n');
 
 return (0);
-
 
 }
