@@ -11,8 +11,9 @@ int i;
 
 for (i = 0 ; i < 10; i++)
 {
-printf(Ã"i", i);
+printf("%i", i);
 }
+
 printf("\n");
 
 return (0)
