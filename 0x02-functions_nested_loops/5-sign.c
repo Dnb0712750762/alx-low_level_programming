@@ -23,7 +23,7 @@ _putchar('0');
 else
 {
 test = -1
--putchar('-');
+_putchar('-');
 }
 
 return (test);
