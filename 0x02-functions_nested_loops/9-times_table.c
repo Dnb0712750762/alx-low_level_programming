@@ -9,7 +9,7 @@ void times_table(void)
 {
 
 int a = 0
-inb b;
+int b;
 int rep;
 while (a <= 9)
 {
