@@ -16,5 +16,5 @@ while (s{u} != '\0')
 {
 u++;
 }
-Return (u);
+return (u);
 }
