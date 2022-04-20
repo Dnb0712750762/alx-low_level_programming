@@ -12,7 +12,7 @@ int _strlen(char *s)
 int l;
 
 l = 0;
-whlie (s(l) != '\0')
+whlie (s{l} != '\0')
 {
 l++;
 }
