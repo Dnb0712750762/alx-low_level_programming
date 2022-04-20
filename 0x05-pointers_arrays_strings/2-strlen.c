@@ -9,12 +9,12 @@
 
 int _strlen(char *s)
 {
-int l;
+int u;
 
-l = 0;
-whlie (s{l} != '\0')
+u = 0;
+whlie (s{u} != '\0')
 {
-l++;
+u++;
 }
-Return (l);
+Return (u);
 }
