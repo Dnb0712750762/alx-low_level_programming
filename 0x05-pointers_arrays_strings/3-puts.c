@@ -2,21 +2,18 @@
 
 /**
  *_puts - prints a string
- *@str: A pointer to int that will be changed
- *
- *Return: void which means our answer is correct
+ *@str: A pointer to the string to print
+ *Return: void
  */
 
 void _puts(char *str)
 {
-char *c;
-int m;
+int i = 0;
 
-c = str;
-
-for (m = 0; c(m); m++)
+while (str[i])
 {
-_putchar (c[m]);
+_putchar (str[i]);
+i++;
 }
 _putchar('\n');
 }
