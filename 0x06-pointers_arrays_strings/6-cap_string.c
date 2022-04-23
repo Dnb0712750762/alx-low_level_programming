@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * cap_string - capitalizes al the words of the string
+ * cap_string - capitalizes all the words of the string
  * @str: the string to change the first letter of the word in uppercase
- * Return: capitalizes letters
+ * Return: capital letters
  */
-
 char *cap_string(char *str)
 {
 int i;
@@ -16,7 +15,7 @@ i = 0;
 
 while (stri[i] != '\0')
 {
-if (i == 0 && (str[i] >= 97 && str[i] <= 122)
+if (i == 0 && str[i] >= 97 && str[i] <= 122)
 {
 str[i] = str[i] - 32;
 }
