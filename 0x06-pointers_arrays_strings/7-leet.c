@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *leet - encodes a string
  *@str: the string to encode
@@ -18,9 +19,9 @@ while (str[i] != '\0')
 j = 0;
 while (c[j] != '\0')
 {
-if (str[i] == n[j])
+if (str[i] == c[j])
 {
-str[i] = n[j]
+str[i] = n[j];
 }
 j++;
 }
