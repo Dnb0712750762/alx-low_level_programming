@@ -1,20 +1,19 @@
 #include "main.h"
+
 /**
  *string_toupper - changes lowercase to uppercase
- *@s: pointer to input char
- *
- *Return: @s
+ *@str: pointer to input char
+ *Return: the string that change for uppercase
  */
 
-char *string_topper(char *str)
+char *string_toupper(char *str)
 {
 int i;
-
 i = 0;
 
 while (str[i] != '\0')
 {
-if (str[i] >=97 && str[i] <= 122)
+if (str[i] >= 97 && str[i] <= 122)
 {
 str[i] = str[i] - 32;
 }
