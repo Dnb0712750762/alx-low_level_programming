@@ -16,7 +16,7 @@ i = 0;
 
 while (stri[i] != '\0')
 {
-if (i ==0 && (str[i] >= 97 && str[i] <= 122)
+if (i == 0 && (str[i] >= 97 && str[i] <= 122)
 {
 str[i] = str[i] - 32;
 }
