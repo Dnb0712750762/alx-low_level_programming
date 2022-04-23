@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *_strncpy - copies the string
  *@dest: array that returns
@@ -22,8 +23,8 @@ i++;
 i = i;
 while (i < n)
 {
-	dest[i] ='\0';
-	i++;
+dest[i] ='\0';
+i++;
 }
 return (dest);
 }
