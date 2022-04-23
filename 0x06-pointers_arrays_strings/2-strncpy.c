@@ -4,7 +4,7 @@
  *@dest: array that returns
  *@src: the pointer that receives the string
  *@n: times to interate
- *[
+ *
  *Return: the parameter dest
  */
 
