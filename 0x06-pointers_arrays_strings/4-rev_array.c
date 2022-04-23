@@ -21,7 +21,7 @@ while (i < n)
 temp = a[i];
 a[i] = a[n];
 a[n] = temp;
-s++;
-e--;
+i++;
+n--;
 }
 }
