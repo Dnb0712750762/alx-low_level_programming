@@ -42,5 +42,5 @@ if (n == 1)
 	
 return (0);
 
-return (is_prime-number(n, 2));
+return (is_prime_number(n, 2));
 }
