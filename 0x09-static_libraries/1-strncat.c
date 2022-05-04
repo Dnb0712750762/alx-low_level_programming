@@ -26,4 +26,3 @@ count2++;
 }
 return (dest);
 }
-clear
