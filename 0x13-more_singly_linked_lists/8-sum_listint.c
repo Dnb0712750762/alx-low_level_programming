@@ -1,8 +1,3 @@
-/*
- * File: 8-sum_listint.c
- * Auth: Brennan D Baraban
- */
-
 #include "lists.h"
 
 /**
@@ -15,13 +10,13 @@
  */
 int sum_listint(listint_t *head)
 {
-	int sum = 0;
+int sum = 0;
 
-	while (head)
-	{
-		sum += head->n;
-		head = head->next;
-	}
+while (head)
+{
+sum += head->n;
+head = head->next;
+}
 
-	return (sum);
+return (sum);
 }
